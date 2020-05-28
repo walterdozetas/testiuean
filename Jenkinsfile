@@ -1,6 +1,6 @@
 agent {
   docker {
-   image 'node:6-alpine'
+   image 'nginx'
    args '-p 3000:3000'
   }
 }
